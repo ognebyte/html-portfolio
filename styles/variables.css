@@ -1,0 +1,83 @@
+:root {
+    --primary-color: #ECECEC;
+    --primary-background-color: #141414;
+    --border-color: #414141;
+    --box-shadow-color: #ffffff20;
+    --secondary-color: #EB1D36;
+    --third-color: #FFD369;
+    --spacing: 6px;
+    --spacing-medium: calc(var(--spacing) * 2);
+    --spacing-large: calc(var(--spacing) * 3);
+    --grid-cell-size: 40px;
+    --grid-columns: 7;
+    --grid-rows: 13;
+    --section-width: calc(var(--grid-cell-size) * var(--grid-columns) + 2px);
+    --grid-height: calc(var(--grid-cell-size) * var(--grid-rows) + 2px);
+    --grid-background: url("../assets/cell-border-small.svg");
+    --h1-font-size: 32px;
+    --h2-font-size: 20px;
+    --h3-font-size: 18px;
+    --p-font-size: 16px;
+}
+
+.light-theme {
+    --primary-color: #323232;
+    --primary-background-color: #F5EDDC;
+    --border-color: var(--primary-color);
+    --box-shadow-color: #00000040;
+}
+
+@media (min-width: 400px) {
+    :root {
+        --grid-columns: 9;
+        --grid-rows: 15;
+        --h1-font-size: 42px;
+        --h2-font-size: 24px;
+        --h3-font-size: 20px;
+    }
+}
+
+@media (min-width: 500px) {
+    :root {
+        --grid-columns: 11;
+        --grid-rows: 15;
+    }
+}
+
+@media (min-width: 700px) {
+    :root {
+        --spacing: 8px;
+        --grid-cell-size: 60px;
+        --grid-columns: 10;
+        --grid-rows: 13;
+        --grid-background: url("../assets/cell-border-medium.svg");
+        --h1-font-size: 60px;
+        --h2-font-size: 36px;
+        --h3-font-size: 24px;
+    }
+}
+
+@media (min-width: 900px) {
+    :root {
+        --grid-columns: 13;
+        --grid-rows: 8;
+    }
+}
+
+@media (min-width: 1100px) {
+    :root {
+        --grid-columns: 17;
+        --grid-rows: 9;
+        --h1-font-size: 80px;
+        --h2-font-size: 48px;
+        --h3-font-size: 28px;
+        --p-font-size: 20px;
+    }
+}
+
+@media (min-width: 1300px) {
+    :root {
+        --grid-columns: 21;
+        --grid-rows: 10;
+    }
+}

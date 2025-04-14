@@ -1,0 +1,53 @@
+{
+    "data": [
+        {
+            "name": "ProjectPaper",
+            "description": "Это веб-приложение для управления проектами и задачами. Позволяет пользователям создавать проекты, работать с досками задач, настраивать приоритеты и сроки, а также приглашать участников.",
+            "path": "assets/projectpaper/",
+            "primaryImg": "projectpaper-1.png",
+            "img": [
+                "projectpaper-1.png",
+                "projectpaper-2.png",
+                "projectpaper-3.png",
+                "projectpaper-4.png",
+                "projectpaper-5.png",
+                "projectpaper-6.png",
+                "projectpaper-7.png",
+                "projectpaper-8.png",
+                "projectpaper-9.png"
+            ],
+            "stack": "Next.js, TypeScript, Firebase, Redux",
+            "year": 2024,
+            "link": "https://github.com/ognebyte/nextjs-projectpaper"
+        },
+        {
+            "name": "GitHubRepoFinder",
+            "description": "Веб-приложение для поиска репозиториев на GitHub.<br>Вводите запрос – получаете список репозиториев в таблице. Можно кликнуть на любой результат, чтобы увидеть краткую информацию и ссылку на репозиторий.",
+            "path": "assets/githubrepofinder/",
+            "primaryImg": "githubrepofinder-1.png",
+            "img": [
+                "githubrepofinder-1.png",
+                "githubrepofinder-2.png"
+            ],
+            "stack": "Next.js, TypeScript, GrapQL API, Redux, Sass",
+            "year": 2024,
+            "link": "https://github.com/ognebyte/nextjs-githubrepofinder"
+        },
+        {
+            "name": "Diary",
+            "description": "Это мобильное приложение, которое помогает студентам и преподавателям управлять учебным процессом. Оно заменяет бумажные записи и хаос в расписаниях удобным цифровым инструментом.",
+            "path": "assets/diary/",
+            "primaryImg": "diary-1.png",
+            "img": [
+                "diary-1.png",
+                "diary-2.png",
+                "diary-3.png",
+                "diary-4.png",
+                "diary-5.png"
+            ],
+            "stack": "React Native, JavaScript, Expo, Firebase, SQLite",
+            "year": 2023,
+            "link": "https://github.com/ognebyte/reactnative-diary"
+        }
+    ]
+}
