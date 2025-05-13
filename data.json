@@ -1,6 +1,19 @@
 {
     "data": [
         {
+            "name": "Weather",
+            "description": "Приложение показывает прогноз на несколько дней и часов с интерактивными графиками, переключением единиц измерения (°C/°F) и адаптивной вёрсткой.",
+            "path": "assets/weather/",
+            "primaryImg": "weather-1.png",
+            "img": [
+                "weather-1.png",
+                "weather-2.png"
+            ],
+            "stack": "Vue 3, TypeScript, WeatherAPI, PrimeVue",
+            "year": 2025,
+            "link": "https://github.com/ognebyte/vue-weather"
+        },
+        {
             "name": "ProjectPaper",
             "description": "Это веб-приложение для управления проектами и задачами. Позволяет пользователям создавать проекты, работать с досками задач, настраивать приоритеты и сроки, а также приглашать участников.",
             "path": "assets/projectpaper/",
